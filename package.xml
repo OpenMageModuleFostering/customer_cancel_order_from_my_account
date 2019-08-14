@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Customer_Cancel_Order_From_My_Account</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://www.gnu.org/copyleft/gpl.html">GPL v3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Customer order cancel from my account is an open-source Magento module developed by Commerce Bees. The primary focus of the module is used to cancel the order from my account page by the users.</summary>
+    <description>Order can cancel by the user from the my accout section under my order tab.&#xD;
+Order cancellation is possible only for the pending order status.&#xD;
+Once order status moved from pending to any other status it will show order cancellation not available.&#xD;
+Notification will shown to the user in the my order page. </description>
+    <notes>The first Version of customer cancel order from my account.</notes>
+    <authors><author><name>commercebees</name><user>commercebees</user><email>support@commercebees.com</email></author></authors>
+    <date>2015-01-31</date>
+    <time>14:18:12</time>
+    <contents><target name="magelocal"><dir name="Ameex"><dir name="Cancelorder"><dir name="controllers"><file name="IndexController.php" hash="9096094739a4cdcd01d657e94bbb55b7"/></dir><dir name="etc"><file name="config.xml" hash="36568ee441092819e8978a3476c19cf4"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="sales"><dir name="order"><file name="history.phtml" hash="39ca10182b59ceada5fb9f91b3a8e7f0"/></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="."><file name="CommerceBees_OrderCancel_MyAccount_Extension_Guide_V1.0.pdf" hash="2b0443f9d56f81ebbfdcd8ef7db114ed"/></dir></target><target name="mageetc"><dir name="modules"><file name="Ameex_Cancelorder.xml" hash="1cb1731d5fb77073f3f60a24a1049341"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

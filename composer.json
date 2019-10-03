@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Customer_Cancel_Order_From_My_Account",
+    "name": "OpenMageModuleFostering\/Customer_Cancel_Order_From_My_Account",
     "type": "magento-module",
     "license": "GPL-v3",
     "homepage": "",
     "description": "Customer order cancel from my account is an open-source Magento module developed by Commerce Bees. The primary focus of the module is used to cancel the order from my account page by the users.",
     "authors": [
-    {
-        "name": "commercebees",
-        "email": "support@commercebees.com"
-    }
-],
+        {
+            "name": "commercebees",
+            "email": "support@commercebees.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }

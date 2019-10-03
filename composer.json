@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Customer_Cancel_Order_From_My_Account",
+    "name": "openmage-module-fostering\/customer_cancel_order_from_my_account",
     "type": "magento-module",
     "license": "GPL-v3",
     "homepage": "",
